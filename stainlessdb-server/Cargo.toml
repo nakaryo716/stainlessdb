@@ -1,0 +1,12 @@
+[package]
+name = "stainlessdb-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hashbrown = "0.14.5"
+serde_json = "1.0.128"
+stainlessdb-core ={ path = "../stainlessdb-core"}
+tokio = { version = "1.40.0", features = ["full"] }
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
